@@ -21,10 +21,10 @@ fi
 
 while [[ 1 == 1 ]]; do
 
-     cd ~/Desktop/VexRankings
+     cd ~/Desktop/Code/VexRankings
      make run > ~/Desktop/code/JaimeBR-ui.github.io/VexRankings/rankings.txt
 
-     cd ~/Desktop/code/JaimeBR-ui.github.io/
+     cd ~/Desktop/Code/JaimeBR-ui.github.io/
      echo "============================================" >> ./VexRankings/rankings.txt
      echo "Last Updated on $(date)" >> ./VexRankings/rankings.txt
      echo "============================================" >> ./VexRankings/rankings.txt
