@@ -5,16 +5,14 @@
 
 cd ~/Desktop/Code
 
-echo ran1
 for dir in *; do
 
   if [ -d $dir ]; then
   {
-    echo ranagain
     cd $dir
     git add -A
     git commit -m "emergency push"
-    git push =u origin master
+    git push -u origin master
     cd ..
   }
   fi
